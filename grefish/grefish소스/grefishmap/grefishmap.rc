@@ -1,0 +1,416 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Korean resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 18, 1\r\n"
+    "#pragma code_page(949)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\grefishmap.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.kor\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\grefishmap.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "grefishmap 정보"
+FONT 9, "굴림"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "grefishmap 버전 1.0",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2007",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "확인",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_GREFISHMAP_DIALOG DIALOGEX 0, 0, 454, 341
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "grefishmap"
+FONT 9, "굴림"
+BEGIN
+    DEFPUSHBUTTON   "블럭바꾸기",IDC_BUTTON1,317,29,42,17
+    PUSHBUTTON      "△",IDC_BUTTON2,317,53,15,17
+    PUSHBUTTON      "▽",IDC_BUTTON3,333,53,15,17
+    PUSHBUTTON      "◁",IDC_BUTTON4,349,53,15,17
+    PUSHBUTTON      "▷",IDC_BUTTON5,366,53,15,17
+    PUSHBUTTON      "파일저장",IDC_BUTTON6,393,35,41,16
+    PUSHBUTTON      "불러오기",IDC_BUTTON7,393,53,41,16
+    EDITTEXT        IDC_EDIT1,313,79,134,195,ES_MULTILINE | ES_AUTOHSCROLL | 
+                    ES_READONLY | WS_VSCROLL
+    PUSHBUTTON      "효과삭제",IDC_BUTTON9,347,298,33,18
+    PUSHBUTTON      "조건추가",IDC_BUTTON11,381,298,33,18
+    PUSHBUTTON      "조건삭제",IDC_BUTTON12,415,298,33,18
+    PUSHBUTTON      "효과추가",IDC_BUTTON13,313,298,33,18
+    EDITTEXT        IDC_EDIT2,316,277,22,13,ES_AUTOHSCROLL
+    LTEXT           "번 효과에 다음 작업을 합니다.",IDC_STATIC,340,279,107,8
+    PUSHBUTTON      "효과설정",IDC_BUTTON14,313,316,33,18
+    PUSHBUTTON      "조건변경",IDC_BUTTON8,381,316,33,18
+    PUSHBUTTON      "설명",IDC_BUTTON10,366,33,15,17
+    PUSHBUTTON      "효과복사",IDC_BUTTON15,347,316,33,18
+END
+
+IDD_DELETEEFFECT DIALOG DISCARDABLE  0, 0, 64, 51
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "몇번을??"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,7,30,50,14
+    EDITTEXT        IDC_EDIT1,7,19,50,11,ES_AUTOHSCROLL
+    LTEXT           "몇번을??",IDC_STATIC,7,7,50,12
+END
+
+IDD_SET DIALOG DISCARDABLE  0, 0, 207, 77
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "효과 셋팅"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,58,54,50,14
+    LTEXT           "x좌표",IDC_STATIC,7,5,21,9
+    LTEXT           "y좌표",IDC_STATIC,7,17,23,8
+    EDITTEXT        IDC_EDIT1,31,3,20,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,32,17,19,12,ES_AUTOHSCROLL
+    LTEXT           "그림 번호",IDC_STATIC,7,31,36,11
+    EDITTEXT        IDC_EDIT4,44,30,34,12,ES_AUTOHSCROLL
+    LTEXT           "가로크기",IDC_STATIC,76,15,33,11
+    EDITTEXT        IDC_EDIT5,112,15,22,12,ES_AUTOHSCROLL
+    LTEXT           "세로크기",IDC_STATIC,139,15,34,9
+    EDITTEXT        IDC_EDIT6,177,15,23,12,ES_AUTOHSCROLL
+    LTEXT           "0:하늘 1:땅 2:가속 3:불 4: ? 5:밟*사 6:높이 7:깃발 9:검정",
+                    IDC_STATIC,7,44,193,9
+    LTEXT           "위에는 미치는범위/아래는 보이는크기",IDC_STATIC,59,5,
+                    134,9
+    EDITTEXT        IDC_EDIT7,113,29,23,11,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT8,175,28,25,12,ES_AUTOHSCROLL
+END
+
+IDD_IFF DIALOG DISCARDABLE  0, 0, 187, 149
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "조건제작"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,66,128,50,14
+    GROUPBOX        "만약에 ~하다면",IDC_STATIC,7,7,173,59
+    GROUPBOX        "이렇게 해라",IDC_STATIC,7,71,173,54
+    PUSHBUTTON      "항상",IDC_BUTTON1,14,20,32,10
+    PUSHBUTTON      "이것이 블럭과 충돌한다면",IDC_BUTTON2,52,19,119,11
+    PUSHBUTTON      "신호받으면",IDC_BUTTON3,15,34,46,11
+    PUSHBUTTON      "바로 위와 동등한 조건으로",IDC_BUTTON4,67,34,102,11
+    PUSHBUTTON      "이것이 캐릭터와 충돌할때",IDC_BUTTON5,14,49,102,11
+    PUSHBUTTON      "캐릭터 움직임",IDC_BUTTON6,15,82,57,12
+    PUSHBUTTON      "이것이 움직임",IDC_BUTTON7,75,81,57,13
+    PUSHBUTTON      "죽기",IDC_BUTTON8,139,83,28,11
+    PUSHBUTTON      "신호보내기",IDC_BUTTON9,13,97,57,11
+    PUSHBUTTON      "블럭바꾸기",IDC_BUTTON10,77,98,57,11
+    PUSHBUTTON      "일정 시간흐름",IDC_BUTTON11,15,112,59,11
+    PUSHBUTTON      "숨기기",IDC_BUTTON12,78,112,55,10
+    PUSHBUTTON      "방향반대",IDC_BUTTON13,137,97,41,12
+    PUSHBUTTON      "키 입력",IDC_BUTTON14,122,49,42,11
+END
+
+IDD_INFO DIALOG DISCARDABLE  0, 0, 187, 94
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "정보(0은 움직이지 않는걸로 간주함)"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,25,73,50,14
+    GROUPBOX        "고정시키기",IDC_STATIC,7,7,80,60
+    GROUPBOX        "증가시키기",IDC_STATIC,95,7,85,80
+    LTEXT           "x",IDC_STATIC,13,18,12,8
+    LTEXT           "y",IDC_STATIC,13,27,6,10
+    LTEXT           "x속",IDC_STATIC,12,40,14,11
+    LTEXT           "y속",IDC_STATIC,12,51,15,11
+    EDITTEXT        IDC_EDIT1,25,18,56,9,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,25,28,57,10,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,26,40,56,11,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT4,26,52,58,10,ES_AUTOHSCROLL
+    LTEXT           "x    y            x속  y속        x가 y가",IDC_STATIC,
+                    99,20,14,67
+    EDITTEXT        IDC_EDIT5,115,18,60,9,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT6,115,29,59,9,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT7,117,42,55,10,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT8,116,53,56,10,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT9,118,66,62,10,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT10,117,78,63,9,ES_AUTOHSCROLL
+END
+
+IDD_DIALOG1 DIALOG DISCARDABLE  0, 0, 115, 94
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,36,73,50,14
+    EDITTEXT        IDC_EDIT1,14,23,20,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,41,24,23,12,ES_AUTOHSCROLL
+    LTEXT           "를",IDC_STATIC,20,42,12,11
+    LTEXT           "번 블럭으로",IDC_STATIC,54,42,46,10
+    EDITTEXT        IDC_EDIT3,30,41,24,13,ES_AUTOHSCROLL
+END
+
+IDD_EXPLAIN DIALOG DISCARDABLE  0, 0, 102, 99
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,25,78,50,14
+    LTEXT           "1번째줄2번째줄3번째줄                             4번째줄5번째줄6번째줄",
+                    IDC_STATIC,7,7,29,64
+    EDITTEXT        IDC_EDIT1,37,7,58,12,ES_AUTOHSCROLL | NOT WS_BORDER
+    EDITTEXT        IDC_EDIT2,37,19,58,12,ES_AUTOHSCROLL | NOT WS_BORDER
+    EDITTEXT        IDC_EDIT3,37,30,58,12,ES_AUTOHSCROLL | NOT WS_BORDER
+    EDITTEXT        IDC_EDIT4,37,41,58,12,ES_AUTOHSCROLL | NOT WS_BORDER
+    EDITTEXT        IDC_EDIT5,37,52,58,12,ES_AUTOHSCROLL | NOT WS_BORDER
+    EDITTEXT        IDC_EDIT6,37,63,58,12,ES_AUTOHSCROLL | NOT WS_BORDER
+END
+
+IDD_KKey DIALOG DISCARDABLE  0, 0, 77, 38
+STYLE DS_MODALFRAME | WS_POPUP
+FONT 10, "System"
+BEGIN
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041204B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "grefishmap MFC 응용 프로그램\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "grefishmap\0"
+            VALUE "LegalCopyright", "Copyright (C) 2007\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "grefishmap.EXE\0"
+            VALUE "ProductName", "grefishmap 응용 프로그램\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x412, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_GREFISHMAP_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 447
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 334
+    END
+
+    IDD_DELETEEFFECT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 57
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 44
+    END
+
+    IDD_SET, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 200
+        BOTTOMMARGIN, 70
+    END
+
+    IDD_IFF, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 142
+    END
+
+    IDD_INFO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 87
+    END
+
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 108
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 87
+    END
+
+    IDD_EXPLAIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 95
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 92
+    END
+
+    IDD_KKey, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 70
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 31
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_HIGH                BITMAP  DISCARDABLE     "res\\high.bmp"
+IDB_NOGRAV              BITMAP  DISCARDABLE     "res\\nograv.bmp"
+IDB_SKY                 BITMAP  DISCARDABLE     "res\\sky.bmp"
+IDB_TREE                BITMAP  DISCARDABLE     "res\\tree.bmp"
+IDB_WHAT                BITMAP  DISCARDABLE     "res\\what.bmp"
+IDB_BACK                BITMAP  DISCARDABLE     "res\\back.bmp"
+IDB_BLOD                BITMAP  DISCARDABLE     "res\\blod.bmp"
+IDB_CHA                 BITMAP  DISCARDABLE     "res\\cha.bmp"
+IDB_DIE                 BITMAP  DISCARDABLE     "res\\die.bmp"
+IDB_FLAG                BITMAP  DISCARDABLE     "res\\flag.bmp"
+IDB_GASI                BITMAP  DISCARDABLE     "res\\gasi.bmp"
+IDB_GRAV                BITMAP  DISCARDABLE     "res\\grav.bmp"
+IDB_GROUND              BITMAP  DISCARDABLE     "res\\ground.bmp"
+IDB_DOWNUP              BITMAP  DISCARDABLE     "res\\bitmap1.bmp"
+IDB_BREAK               BITMAP  DISCARDABLE     "res\\bmp00001.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "grefishmap 정보(&A)..."
+END
+
+#endif    // Korean resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE 18, 1
+#pragma code_page(949)
+#endif //_WIN32
+#include "res\grefishmap.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.kor\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

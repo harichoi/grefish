@@ -1,0 +1,72 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: grefishmap - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\a\LOCALS~1\Temp\RSPDD.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/grefishmap.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Documents and Settings\a\grewar\grefishmap\grefishmapDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\a\LOCALS~1\Temp\RSPDD.tmp" 
+Creating temporary file "C:\DOCUME~1\a\LOCALS~1\Temp\RSPDE.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/grefishmap.pdb" /machine:I386 /out:"Release/grefishmap.exe" 
+".\Release\delef.obj"
+".\Release\Explain.obj"
+".\Release\grefishmap.obj"
+".\Release\grefishmapDlg.obj"
+".\Release\Iff.obj"
+".\Release\Info.obj"
+".\Release\Key.obj"
+".\Release\Sett.obj"
+".\Release\StdAfx.obj"
+".\Release\Xy.obj"
+".\Release\grefishmap.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\a\LOCALS~1\Temp\RSPDE.tmp"
+<h3>Output Window</h3>
+Compiling...
+grefishmapDlg.cpp
+C:\Documents and Settings\a\grewar\grefishmap\grefishmapDlg.cpp(361) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Documents and Settings\a\grewar\grefishmap\grefishmapDlg.cpp(361) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Documents and Settings\a\grewar\grefishmap\grefishmapDlg.cpp(373) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Documents and Settings\a\grewar\grefishmap\grefishmapDlg.cpp(373) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Documents and Settings\a\grewar\grefishmap\grefishmapDlg.cpp(373) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Documents and Settings\a\grewar\grefishmap\grefishmapDlg.cpp(373) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Documents and Settings\a\grewar\grefishmap\grefishmapDlg.cpp(376) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Documents and Settings\a\grewar\grefishmap\grefishmapDlg.cpp(376) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Documents and Settings\a\grewar\grefishmap\grefishmapDlg.cpp(378) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Documents and Settings\a\grewar\grefishmap\grefishmapDlg.cpp(378) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Documents and Settings\a\grewar\grefishmap\grefishmapDlg.cpp(399) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Documents and Settings\a\grewar\grefishmap\grefishmapDlg.cpp(399) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Documents and Settings\a\grewar\grefishmap\grefishmapDlg.cpp(299) : warning C4101: 'str' : unreferenced local variable
+C:\Documents and Settings\a\grewar\grefishmap\grefishmapDlg.cpp(297) : warning C4101: 'max' : unreferenced local variable
+C:\Documents and Settings\a\grewar\grefishmap\grefishmapDlg.cpp(296) : warning C4101: 'possible' : unreferenced local variable
+C:\Documents and Settings\a\grewar\grefishmap\grefishmapDlg.cpp(298) : warning C4101: 'k' : unreferenced local variable
+C:\Documents and Settings\a\grewar\grefishmap\grefishmapDlg.cpp(301) : warning C4101: 'brush' : unreferenced local variable
+C:\Documents and Settings\a\grewar\grefishmap\grefishmapDlg.cpp(434) : warning C4101: 'wwwx' : unreferenced local variable
+C:\Documents and Settings\a\grewar\grefishmap\grefishmapDlg.cpp(435) : warning C4101: 'wwwy' : unreferenced local variable
+C:\Documents and Settings\a\grewar\grefishmap\grefishmapDlg.cpp(526) : warning C4101: 'i' : unreferenced local variable
+C:\Documents and Settings\a\grewar\grefishmap\grefishmapDlg.cpp(545) : warning C4101: 'i' : unreferenced local variable
+C:\Documents and Settings\a\grewar\grefishmap\grefishmapDlg.cpp(545) : warning C4101: 'j' : unreferenced local variable
+C:\Documents and Settings\a\grewar\grefishmap\grefishmapDlg.cpp(576) : warning C4101: 'str' : unreferenced local variable
+C:\Documents and Settings\a\grewar\grefishmap\grefishmapDlg.cpp(570) : warning C4101: 'i' : unreferenced local variable
+C:\Documents and Settings\a\grewar\grefishmap\grefishmapDlg.cpp(570) : warning C4101: 'j' : unreferenced local variable
+C:\Documents and Settings\a\grewar\grefishmap\grefishmapDlg.cpp(771) : warning C4101: 'str' : unreferenced local variable
+C:\Documents and Settings\a\grewar\grefishmap\grefishmapDlg.cpp(818) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+C:\Documents and Settings\a\grewar\grefishmap\grefishmapDlg.cpp(819) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+C:\Documents and Settings\a\grewar\grefishmap\grefishmapDlg.cpp(920) : warning C4101: 'str' : unreferenced local variable
+C:\Documents and Settings\a\grewar\grefishmap\grefishmapDlg.cpp(412) : warning C4700: local variable 'old3' used without having been initialized
+Linking...
+
+
+
+<h3>Results</h3>
+grefishmap.exe - 0 error(s), 30 warning(s)
+</pre>
+</body>
+</html>

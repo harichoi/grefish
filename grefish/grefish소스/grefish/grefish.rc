@@ -1,0 +1,94 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Korean resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_GROUND              BITMAP  DISCARDABLE     "ground.bmp"
+IDB_SKY                 BITMAP  DISCARDABLE     "sky.bmp"
+IDB_GRAV                BITMAP  DISCARDABLE     "grav.bmp"
+IDB_DIE                 BITMAP  DISCARDABLE     "die.bmp"
+IDB_WHAT                BITMAP  DISCARDABLE     "what.bmp"
+IDB_BLOD                BITMAP  DISCARDABLE     "blod.bmp"
+IDB_HIGH                BITMAP  DISCARDABLE     "high.bmp"
+IDB_FLAG                BITMAP  DISCARDABLE     "flag.bmp"
+IDB_TREE                BITMAP  DISCARDABLE     "tree.bmp"
+IDB_NOGRAV              BITMAP  DISCARDABLE     "nograv.bmp"
+IDB_GASI                BITMAP  DISCARDABLE     "gasi.bmp"
+IDB_BACK                BITMAP  DISCARDABLE     "back.bmp"
+IDB_CHA                 BITMAP  DISCARDABLE     "cha.bmp"
+IDB_MAIN                BITMAP  DISCARDABLE     "main.bmp"
+IDB_RIGHT               BITMAP  DISCARDABLE     "right.bmp"
+IDB_BREAK               BITMAP  DISCARDABLE     "break.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON    DISCARDABLE     "icon1.ico"
+#endif    // Korean resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
